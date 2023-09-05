@@ -30,7 +30,11 @@ export default function Nav() {
         <a href="/"> SelfhostLab.</a>
       </h1>
       {!matches && (
-  )}
+        <div>
+
+          <a href="/">Home</a>
+        </div>
+      )}
 
 
       {!matches && (
